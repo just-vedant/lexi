@@ -18,6 +18,12 @@ const Navbar = () => {
             <Link to="/" className="hover:text-blue-400 transition-colors py-2">
               Home
             </Link>
+            <Link to="/legal-help" className="hover:text-blue-400 transition-colors py-2">
+              Legal Help
+            </Link>
+            <Link to="/cost-calculator" className="hover:text-blue-400 transition-colors py-2">
+              Cost Calculator
+            </Link>
             {userProfile?.role === 'lawyer' && (
               <Link to="/dashboard" className="hover:text-blue-400 transition-colors py-2">
                 Dashboard

@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import LegalHelp from './pages/LegalHelp';
+import LegalCostCalculator from './pages/LegalCostCalculator';
 import TestDatabase from './components/TestDatabase';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/legal-help" element={<LegalHelp />} />
+              <Route path="/cost-calculator" element={<LegalCostCalculator />} />
               <Route path="/test-db" element={<TestDatabase />} />
             </Routes>
           </main>
